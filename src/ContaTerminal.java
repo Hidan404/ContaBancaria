@@ -22,7 +22,7 @@ public class ContaTerminal {
 
             if(confirmar.equalsIgnoreCase("s")){
                 System.out.println("Seu numero da conta: ");
-                numero = random.nextInt(1000);
+                numero = random.nextInt(10000);
 
                 System.out.println("Digite o numero da agencia: ");
                 agencia = entrada.nextLine();
