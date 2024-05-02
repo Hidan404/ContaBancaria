@@ -1,7 +1,18 @@
 import java.util.Random;
 import java.util.Scanner;
 
+
+/**
+ * Um programa simples para simular um terminal para criar contas bancárias.
+ */
+
 public class ContaTerminal {
+     /**
+     * O método principal que inicia a execução do programa.
+     *
+     * @param args Os argumentos da linha de comando passados para o programa.
+     * @throws Exception Se uma exceção ocorrer durante a execução do programa.
+     */
     public static void main(String[] args) throws Exception {
         Scanner entrada = new Scanner(System.in);
         Random random = new Random();
@@ -15,6 +26,7 @@ public class ContaTerminal {
 
         System.out.println("***Bem vindo***");
 
+        // Loop para interagir com o usuário até que uma condição seja atendida
         while (!condicao) {
             
             System.out.println("deseja abrir uma conta? S/N");
@@ -39,10 +51,11 @@ public class ContaTerminal {
                 condicao = true;
             }
 
-
+            // Definindo a condição como true para sair do loop
             condicao = true;
         }
 
+        // Exibindo informações da conta
         System.out.println("Ola " + nomeCliente + 
         " obrigado por criar uma conta em nosso banco, sua agencia e "
          + agencia + " conta " + numero + " e seu saldo " + saldo +
