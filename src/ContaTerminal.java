@@ -43,7 +43,10 @@ public class ContaTerminal {
             condicao = true;
         }
 
-        System.out.println("Ola " + nomeCliente + " obrigado por criar uma conta em nosso banco, sua agencia e " + agencia + " conta " + numero + " e seu saldo " + saldo + " ja esta disponivel para saque.");
+        System.out.println("Ola " + nomeCliente + 
+        " obrigado por criar uma conta em nosso banco, sua agencia e "
+         + agencia + " conta " + numero + " e seu saldo " + saldo +
+          " ja esta disponivel para saque.");
 
         
 
