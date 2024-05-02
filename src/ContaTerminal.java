@@ -34,12 +34,18 @@ public class ContaTerminal {
                 saldo = entrada.nextDouble();
 
             }
+            else{
+                System.out.println("Saindo do Programa");
+                condicao = true;
+            }
 
 
             condicao = true;
         }
 
-        System.out.println(numero + " " + agencia + " " + nomeCliente + " " + saldo);
+        System.out.println("Ola " + nomeCliente + " obrigado por criar uma conta em nosso banco, sua agencia e " + agencia + " conta " + numero + " e seu saldo " + saldo + " ja esta disponivel para saque.");
+
+        
 
 
         entrada.close();
